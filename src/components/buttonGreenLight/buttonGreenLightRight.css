@@ -1,0 +1,24 @@
+@import '../../assets/css/pattern.css';
+
+.buttonGreenLightR{
+    margin-top: 1em;
+    width: 8.5em;
+    height: 2.5em;
+    border-radius: var(--borderRadius);
+    background: transparent;
+    border: 1px solid var(--greenDark);
+    color: var(--greenDark);
+}
+
+@media screen and (max-width: 375px){
+    .buttonGreenLightR{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 11em;
+        height: 2.5em;
+        border-radius: var(--borderRadius);
+        background: var(--greenDark);
+        border: 1px solid var(--greenDark);
+        color: #fff;
+    }
+}

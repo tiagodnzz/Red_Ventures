@@ -1,0 +1,272 @@
+@import '../../assets/css/pattern.css';
+
+.card{
+    height: 12em;
+    cursor: pointer;
+}
+
+.card__body{
+    height: 6em;
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+.card__title{
+    font-family: var(--fontFamily);
+    font-weight: var(--fontLight);
+    margin-top: 3em;
+}
+
+/* Question One */
+
+.card__salmon:hover{
+    background: var(--salmon);
+    color: #fff;
+    box-shadow: 0px 15px 22px 0px #fd97728f;
+}
+
+.card__salmon_ativo{
+    background: var(--salmon);
+    color: #fff;
+    box-shadow: 0px 15px 22px 0px #fd97728f;
+}
+
+.card__green_ativo{
+    background: var(--greenLight);
+    color: #fff;
+    box-shadow: 0px 15px 22px 0px rgba(123, 175, 158, 0.562);
+}
+
+.card__salmon1{
+    background: url('../../assets/icons/coral/high-sun.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__salmon1:hover{
+    background: url('../../assets/icons/white/high-sun.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+.card__salmon2{
+    background: url('../../assets/icons/coral/low-sun.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
+.card__salmon2:hover{
+    background: url('../../assets/icons/white/low-sun.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.card__salmon3{
+    background: url('../../assets/icons/coral/no-answer.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
+.card__salmon3:hover{
+    background: url('../../assets/icons/white/no-answer.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+/* End Quenstion One */
+
+/* --------------------------------------------------------------------- */
+
+/* Question Two */
+
+.card__green:hover{
+    background: var(--greenLight);
+    color: #fff;
+    box-shadow: 0px 15px 22px 0px rgba(123, 175, 158, 0.562);
+}
+
+.card__green_ativo{
+    background: var(--greenLight);
+    color: #fff;
+    box-shadow: 0px 15px 22px 0px rgba(123, 175, 158, 0.562);
+}
+
+.card__green1{
+    background: url('../../assets/icons/green/one-drop.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__green1:hover{
+    background: url('../../assets/icons/white/one-drop.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__green2{
+    background: url('../../assets/icons/green/two-drops.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__green2:hover{
+    background: url('../../assets/icons/white/two-drops.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__green3{
+    background: url('../../assets/icons/green/three-drops.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__green3:hover{
+    background: url('../../assets/icons/white/three-drops.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+/* End Question Two */
+
+/* --------------------------------------------------------------------------------- */
+
+/* Three Question */
+
+.card__pet:hover{
+    background: var(--salmon);
+    color: #fff;
+    box-shadow: 0px 15px 22px 0px rgba(253, 151, 114, 0.562);
+}
+
+.card__pet_ativo{
+    background: var(--salmon);
+    color: #fff;
+    box-shadow: 0px 15px 22px 0px rgba(253, 151, 114, 0.562);
+}
+
+.card__pet1{
+    background: url('../../assets/icons/pet/pet.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__pet1:hover{
+    background: url('../../assets/icons/white/pet.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__pet2{
+    background: url('../../assets/icons/pet/no-answer.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+.card__pet2:hover{
+    background: url('../../assets/icons/white/no-answer.svg');
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+/* End Three Question */
+
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 375px){
+    .card{
+        height: 6em;
+    }
+    .card__body{
+        margin: 1em 0 1em 1em ;
+    }
+    
+    .card__title{
+        margin-top: 0;
+    }
+
+    /* Responsive question one */
+
+    .card__salmon1{
+        background-position-x: left;
+    }
+    .card__salmon1:hover{
+        background-position-x: left;
+    }
+    
+    .card__salmon2{
+        background-position-x: left;
+    }
+    .card__salmon2:hover{
+        background-position-x: left;
+    }
+    
+    .card__salmon3{
+        background-position-x: left;
+    }
+    .card__salmon3:hover{
+        background-position-x: left;
+    }
+
+    /* End responsive question one */
+    
+    /* ------------------------------------------------------------ */
+
+    /* Responsive question two */
+    .card__green1{
+        background-position-x: left;
+    }
+    .card__green1:hover{
+        background-position-x: left;
+    }
+    
+    .card__green2{
+        background-position-x: left;
+    }
+    .card__green2:hover{
+        background-position-x: left;
+    }
+    
+    .card__green3{
+        background-position-x: left;
+    }
+    .card__green3:hover{
+        background-position-x: left;
+    }
+    /* End responsive question two */
+
+    /* ------------------------------------------------------- */
+
+    /* Responsive question three */
+    .card__pet1{
+        background-position-x: left;
+    }
+    .card__pet1:hover{
+        background-position-x: left;
+    }
+    
+    .card__pet2{
+        background-position-x: left;
+    }
+    .card__pet2:hover{
+        background-position-x: left;
+    }
+    
+    .card__pet3{
+        background-position-x: left;
+    }
+    .card__pet3:hover{
+        background-position-x: left;
+    }
+    /* End responsive question one */
+
+}

@@ -1,0 +1,57 @@
+.allplants{
+    font-size: 4em;
+    text-align: center;
+}
+
+.logo_responsive{
+    display: none;
+}
+
+.deck_card{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Card */
+
+.img_card_plant{
+    width: 10em;
+    height: 10em;
+}
+
+.card_plant{
+    height: 22em;
+    width: 17em;
+    background-color: #ffffff;
+}
+
+.title_plant{
+    color: var(--greenDark);
+    font-weight: var(--fontBold);    
+}
+
+.price{
+    color: #c7c7c7;
+    font-weight: var(--fontBold); 
+}
+
+
+.card_plant:hover{
+    box-shadow: 2px 2px 7px 7px #c5c5c52d;
+}
+
+/* End Card */
+
+@media screen and (max-width: 375px){
+    .logo{
+        display: block;
+        max-width: 50% !important;
+        margin: 2em auto auto auto !important;
+        display: flex;
+    }
+
+    .card_plant{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}

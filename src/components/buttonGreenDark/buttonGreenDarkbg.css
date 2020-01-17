@@ -1,0 +1,11 @@
+@import '../../assets/css/pattern.css';
+
+.ButtonGreenDarkbg{
+    margin-top: 1em;
+    border: none;
+    width: 11em;
+    height: 2.5em;
+    border-radius: var(--borderRadius);
+    background: var(--greenDark);
+    color: #fff;
+}

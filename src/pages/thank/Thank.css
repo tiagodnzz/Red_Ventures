@@ -1,0 +1,61 @@
+.all{
+    background-color: #fff;
+}
+
+.card_form{
+    background-color: #f6f6f6;
+
+}
+
+::-webkit-input-placeholder  { color:#c5c5c5; }
+
+.input_form{
+    padding: 1em;
+    width: 18em;
+    height: 2.5em;
+    border: none;
+    border-radius: 10em;
+}
+
+
+.icone img{
+    width: 2em;
+    height: 1.5em;
+}
+
+.input_form:focus, input:focus, select:focus {
+    box-shadow: 2px 2px 7px 7px #c5c5c52d;
+    outline: 0;
+} 
+
+.button_submit{
+    width: 8em;
+    height: 2.8em;
+    border-radius: 2em;
+    border: none;
+    background: transparent;
+    border: 1px solid var(--greenDark);
+    color: var(--greenDark);
+}
+
+.thank p{
+    text-align: center;
+}
+
+.preco{
+    font-size: 1.5em;
+    color: #c7c7c7;
+}
+
+.logo_responsive{
+    display: none;
+}
+
+@media screen and (max-width: 375px){
+    .logo{
+        display: block;
+        max-width: 50% !important;
+        margin: 2em auto auto auto !important;
+        display: flex;
+    }
+}
